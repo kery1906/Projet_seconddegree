@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+body {
+    font-family: 'poppins';
+    background-color: #f89a56ba;
+    place-items: center;
+}
+#calculer {
+    font-size: 23px;
+    font-family: 'poppins';
+    background-color: rgba(246, 243, 193, 0.405);
+    border-radius: 10px;
+    width: 30%;
+    height: 8vh;
+    margin: 2% 8%;
+    margin-left: 12%;
+}
+h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+.contb {
+    display: flex;
+}
+label {
+    font-size: 25px;
+}
+
+#cont{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 40%;
+    height: 60vh;
+    padding: 16px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgb(69, 69, 68);
+    margin: 10% 50% 0 30%;
+    background-color: #efaa8cd2;
+    align-items: center;
+}
+
+#reint {
+    font-size: 23px;
+    font-family: 'poppins';
+    background-color: rgb(253, 168, 99);
+    border-radius: 10px;
+    width: 30%;
+    height: 8vh;
+    margin: 2% 8%;
+}
+#b, #c {
+    margin-left: 20px;
+}
+input{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'poppins';
+    border-radius: 5px;
+    /* display: flex; */
+    margin-bottom: 10%;
+    margin-left: 10%;
+    width: 20%;
+    height: 5vh;
+}
+p {
+    margin: 8% 0 0 12%;
+    font-size: 23px;
+}
+
